@@ -9,7 +9,7 @@ const Carouselmap = () =>{
     return(
 
         <div className="carousel-wrapper mt-5 pt-5">
-        <Carousel showArrows={true} showThumbs={false} infiniteLoop={true} interval={3000} autoPlay ={true} stopOnHover={false} transitionTime={1000}>
+        <Carousel showArrows={true} showThumbs={false} infiniteLoop={true} interval={3000} swipeable={false} autoPlay ={true} stopOnHover={false} transitionTime={1000}>
              {   
                 Cdata.map((val,index)=>{
                     return(              
