@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -16,8 +16,8 @@ const Footer = () => {
                            <h2 className="mb-2">Our Platform</h2>
                            <div className="footer-links">
                               <ul>
-                                 <li><a href="aboutus.html">About us</a></li>
-                                 <li><a href="blogs.html">Blogs</a></li>
+                                 <li><Link  to="/">About us</Link></li>
+                                 <li><Link  to="/">Blogs</Link></li>
                               </ul>
                            </div>
                         </div>
@@ -27,11 +27,11 @@ const Footer = () => {
                            <h2 className="mb-2">Connect with us</h2>
                            <div className="footer-links">
                               <ul>
-                                 <li><a href="/">Instagram</a></li>
-                                 <li><a href="/">Facebook</a></li>
-                                 <li><a href="/">Youtube</a></li>
-                                 <li><a href="/">Linkedin</a></li>
-                                 <li><a href="/">Twitter</a></li>
+                                 <li><Link to="/">Instagram</Link></li>
+                                 <li><Link to="/">Facebook</Link></li>
+                                 <li><Link to="/">Youtube</Link></li>
+                                 <li><Link to="/">Linkedin</Link></li>
+                                 <li><Link to="/">Twitter</Link></li>
                               </ul>
                            </div>
                         </div>
@@ -41,9 +41,9 @@ const Footer = () => {
                            <h2 className="mb-2">LEGAL</h2>
                            <div className="footer-links">
                               <ul>
-                                 <li><a href="guidline.html">Community Guidelines</a></li>
-                                 <li><a href="service.html">Terms of services</a></li>
-                                 <li><a href="policy.html">Price Policy</a></li>
+                                 <li><Link to="/">Community Guidelines</Link></li>
+                                 <li><Link to="/">Terms of services</Link></li>
+                                 <li><Link to="/">Price Policy</Link></li>
                               </ul>
                            </div>
                         </div>
@@ -53,9 +53,9 @@ const Footer = () => {
                            <h2 className="mb-2">Contact</h2>
                            <div className="footer-links">
                               <ul>
-                                 <li><a href="mailto:nftgallery@gmail.com">nftgallery@gmail.com</a></li>
-                                 <li><a href="support.html">Support</a></li>
-                                 <li><a href="faq.html">FAQ</a></li>
+                                 <li><Link to="/">nftgallery@gmail.com</Link></li>
+                                 <li><Link to="/">Support</Link></li>
+                                 <li><Link to="/">FAQ</Link></li>
                               </ul>
                            </div>
                         </div>
